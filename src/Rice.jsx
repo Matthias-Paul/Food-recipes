@@ -3,6 +3,7 @@ import "./app.css";
 import Header from "./Header.jsx";
 import App from "./App.jsx";
 import Data from "./food-data.json"
+import images from "./Asset"
 
 export default function Rice() {
   const [home, setHome] = useState(false);
