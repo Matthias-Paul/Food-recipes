@@ -74,7 +74,7 @@ if (loading){
         <div>
           {riceInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+                      <img className="image" src={require(`${recipe.image}`).default} alt={recipe.name} />
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">Descriptions: {recipe.description}</div>
