@@ -9,7 +9,7 @@
 }
 .food{
     height: 380px;
-    width:350px;
+    width:320px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.4);
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 .image{
-    width:350px;
+    width:320px;
     height: 270px;
     border-radius: 8px;
     background-size: contain;
@@ -35,7 +35,28 @@
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.hero{
+text-align:center;
+background-color: rgb(207, 236, 222);
+margin-top:-35px;
+box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.5);
+padding-top: 70px;
+padding-bottom: 30px;
+width:100%;
+}
+.topic{
+    margin-top:-40px;
+    font-size:21px;
+    font-weight: bold;
+    padding: 20px;
+}
+.paragraph{
+    font-size:16px;
+    color:rgb(44, 5, 5);
+    padding: 20px;
+    margin-top:-25px;
+    line-height:1.7;
+}
 
 
 

@@ -27,8 +27,15 @@ changeIndomie
   return (
     <>
       <div className={styles.foodcontainer}>
+        <div className={styles.hero}>
+          <h3 className={styles.topic}>Welcome To SoloChef</h3>
+          <p className={styles.paragraph}>we provide  recipes and cooking tips specifically designed
+            for individuals who are cooking for themselves, friends or family.
+          </p>
+        </div>
+        <h3>Recipes By Category</h3>
         <div onClick ={change} className={styles.food}>
-          <img className={styles.image} src={rice} alt="food image" />
+          <img className={styles.image} src={rice}  />
           <div className={styles.text}>Rice</div>
           
           <div className={styles.number}>
@@ -37,7 +44,7 @@ changeIndomie
         </div>
 
         <div onClick={changeAmala} className={styles.food}>
-          <img className={styles.image} src={amala} alt="food image" />
+          <img className={styles.image} src={amala} />
           <div className={styles.text}>Amala</div>
           <div className={styles.number}>
             Four different amala recipes available!
@@ -45,7 +52,7 @@ changeIndomie
         </div>
 
         <div onClick={changeYam}  className={styles.food}>
-          <img className={styles.image} src={yam} alt="food image" />
+          <img className={styles.image} src={yam} />
           <div className={styles.text}>Yam</div>
           <div className={styles.number}>
             Six different yam recipes available!
@@ -53,7 +60,7 @@ changeIndomie
         </div>
 
         <div onClick={changePotato} className={styles.food}>
-          <img className={styles.image} src={potato} alt="food image" />
+          <img className={styles.image} src={potato}  />
           <div className={styles.text}>Potato</div>
           <div className={styles.number}>
             Five different potato recipes available!
@@ -61,7 +68,7 @@ changeIndomie
         </div>
 
         <div onClick={changeBeans} className={styles.food}>
-          <img className={styles.image} src={beans} alt="food image" />
+          <img className={styles.image} src={beans}  />
           <div className={styles.text}>Beans</div>
           <div className={styles.number}>
             Four different beans recipes available!
@@ -69,7 +76,7 @@ changeIndomie
         </div>
 
         <div onClick={changePasta} className={styles.food}>
-          <img className={styles.image} src={pasta} alt="food image" />
+          <img className={styles.image} src={pasta}  />
           <div className={styles.text}>Pasta</div>
           <div className={styles.number}>
             Four different pasta recipes available!
@@ -77,7 +84,7 @@ changeIndomie
         </div>
 
         <div onClick={changeTuwo}className={styles.food}>
-          <img className={styles.image} src={tuwo} alt="food image" />
+          <img className={styles.image} src={tuwo} />
           <div className={styles.text}>Tuwo</div>
           <div className={styles.number}>
             Three different tuwo recipes available!
@@ -85,7 +92,7 @@ changeIndomie
         </div>
 
         <div onClick={changePepperSoup}className={styles.food}>
-          <img className={styles.image} src={pepperSoup} alt="food image" />
+          <img className={styles.image} src={pepperSoup}  />
           <div className={styles.text}>Pepper Soup</div>
           <div className={styles.number}>
             Four different pepper soup recipes available!
@@ -93,7 +100,7 @@ changeIndomie
         </div>
 
         <div onClick={changeSoup} className={styles.food}>
-          <img className={styles.image} src={soup} alt="food image" />
+          <img className={styles.image} src={soup}  />
           <div className={styles.text}>Soup</div>
           <div className={styles.number}>
             Twelve different soup recipes available!
@@ -103,7 +110,7 @@ changeIndomie
  
         <div onClick={changePlantain} className={styles.food}>
          <img className={styles.image}
-             src={plantain} alt="food image" />
+             src={plantain}  />
           <div className={styles.text}>Plantain</div>
           <div className={styles.number}>
             Seven different plantain recipes available!
@@ -112,7 +119,7 @@ changeIndomie
 
         <div onClick={changeIndomie} className={styles.food}>
          <img className={styles.image}
-             src={indomie} alt="food image" />
+             src={indomie}  />
           <div className={styles.text}>Indomie</div>
           <div className={styles.number}>
             Seven different indomie recipes available!
@@ -121,7 +128,7 @@ changeIndomie
 
         <div onClick={changeShawama} className={styles.food}>
          <img className={styles.image}
-             src={shawama} alt="food image" />
+             src={shawama} />
           <div className={styles.text}>Shawama</div>
           <div className={styles.number}>
             Four different shawama recipes available!
@@ -130,7 +137,7 @@ changeIndomie
 
         <div onClick={changeBread} className={styles.food}>
          <img className={styles.image}
-             src={bread} alt="food image" />
+             src={bread} />
           <div className={styles.text}>Bread</div>
           <div className={styles.number}>
              Eight different bread recipes available!
@@ -140,7 +147,7 @@ changeIndomie
 
         <div onClick={changePizza} className={styles.food}>
          <img className={styles.image}
-             src={pizza} alt="food image" />
+             src={pizza}  />
           <div className={styles.text}>Pizza</div>
           <div className={styles.number}>
              Three different pizza recipes available!

@@ -42,7 +42,7 @@ useEffect (()=>{
   const timeout = setTimeout(()=>{
   setLoading(false)
   
-  }, 2000)
+  }, 300)
   return ()=> clearTimeout(timeout)
   
   },[])

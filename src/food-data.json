@@ -3,7 +3,7 @@
     "rice":[
     {
       "id": 1,
-      "image":"../Asset/jollof.jpg",
+      "image":"/Asset/jollof.jpg",
       "name": "Jollof Rice",
       "description": "Jollof rice is a popular Nigerian dish made with rice, tomatoes, and various spices.",
       "ingredients": [
@@ -32,7 +32,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/coconut-rice.jpg",
+      "image":"/Asset/coconut-rice.jpg",
       "name": "Coconut Rice",
       "description": "Coconut rice is a delicious Nigerian dish made with rice cooked in coconut milk.",
       "ingredients": [
@@ -60,7 +60,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/fried-rice.jpg",
+      "image":"/Asset/fried-rice.jpg",
       "name": "Fried Rice",
       "description": "Fried rice is a flavorful Nigerian dish made with rice, vegetables, and protein.",
       "ingredients": [
@@ -87,7 +87,7 @@
     },
     {
       "id": 4,
-      "image":"../Asset/ofada-rice.jpg",
+      "image":"/Asset/ofada-rice.jpg",
       "name": "Ofada Rice and Ayamase Stew",  
       "description": "Ofada rice is a local Nigerian rice variety served with Ayamase stew, a spicy pepper sauce.",
       "ingredients": [
@@ -116,7 +116,7 @@
     "amala":[ 
     {
       "id": 1,
-      "image":"../Asset/ewedu-amala.jpg",
+      "image":"/Asset/ewedu-amala.jpg",
       "name": "Ewedu Soup and Amala",
       "description": "Ewedu soup is a traditional Nigerian soup made with jute leaves, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
@@ -138,7 +138,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/gbegiri-amala.jpg",
+      "image":"/Asset/gbegiri-amala.jpg",
       "name": "Gbegiri Soup and Amala",
       "description": "Gbegiri soup is a Nigerian soup made with beans, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
@@ -162,7 +162,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/ogbono-amala.jpg",
+      "image":"/Asset/ogbono-amala.jpg",
       "name": "Ogbono Soup and Amala",
       "description": "Ogbono soup is a Nigerian soup made with ground ogbono seeds, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
@@ -188,7 +188,7 @@
     },
     {
       "id": 4,
-      "image":"../Asset/egusi-amala.jpg",
+      "image":"/Asset/egusi-amala.jpg",
       "name": "Egusi Soup and Amala",
       "description": "Egusi soup is a popular Nigerian soup made with ground melon seeds and vegetables, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
@@ -219,7 +219,7 @@
     "yam":[
         {
       "id": 1,
-      "image":"../Asset/yam-porridge.jpeg",
+      "image":"/Asset/yam-porridge.jpeg",
       "name": "Yam Porridge",
       "description": "Yam porridge is a hearty Nigerian dish made with yam, vegetables, and sometimes fish or meat.",
       "ingredients": [
@@ -243,7 +243,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/yam-pottage.jpeg",
+      "image":"/Asset/yam-pottage.jpeg",
       "name": "Yam Pottage (Asaro)",
       "description": "Yam pottage, also known as Asaro, is a comforting Nigerian dish made with yam, palm oil, and spices.",
       "ingredients": [
@@ -267,7 +267,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/yam-egg.jpeg",
+      "image":"/Asset/yam-egg.jpeg",
       "name": "Yam and Egg Sauce",
       "description": "Yam and egg sauce is a simple and delicious Nigerian dish made with boiled yam and a spicy tomato and egg sauce.",
       "ingredients": [
@@ -292,7 +292,7 @@
     },
     {
       "id": 4,
-      "image":"../Asset/yam-fries.jpeg",
+      "image":"/Asset/yam-fries.jpeg",
       "name": "Yam Fries",
       "description": "Yam fries are a tasty and crispy snack made from sliced yam, seasoned and fried until golden brown.",
       "ingredients": [
@@ -311,7 +311,7 @@
     },
     {
       "id": 5,
-      "image":"../Asset/yam-ball.jpg",
+      "image":"/Asset/yam-ball.jpg",
       "name": "Yam Balls",
       "description": "Yam balls are delicious snacks made from mashed yam, mixed with spices, shaped into balls, coated with breadcrumbs, and fried until golden brown.",
       "ingredients": [
@@ -338,7 +338,7 @@
     },  
     {
       "id": 6,
-      "image":"../Asset/yam-veg.jpeg",
+      "image":"/Asset/yam-veg.jpeg",
       "name": "Yam and Vegetable Stir-Fry",
       "description": "Yam and vegetable stir-fry is a nutritious and flavorful dish made with yam, assorted vegetables, and a savory sauce.",
       "ingredients": [
@@ -369,7 +369,7 @@
   "potato":[  
   {
       "id": 1,
-      "image":"../Asset/potato-porridge.jpeg",
+      "image":"/Asset/potato-porridge.jpeg",
       "name": "Potato Porridge",
       "description": "Potato porridge is a delicious and comforting Nigerian dish made with potatoes, vegetables, and flavorful spices.",
       "ingredients": [
@@ -393,7 +393,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/potato-pottage.jpeg",
+      "image":"/Asset/potato-pottage.jpeg",
       "name": "Potato Pottage",
       "description": "Potato pottage, also known as 'Potato Hotpot', is a hearty and nutritious Nigerian one-pot meal made with potatoes, vegetables, and protein.",
       "ingredients": [
@@ -417,7 +417,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/potato-egg.jpg",
+      "image":"/Asset/potato-egg.jpg",
       "name": "Potato and Egg Sauce",
       "description": "Potato and egg sauce is a delightful Nigerian dish made with boiled potatoes and a savory tomato and egg sauce.",
       "ingredients": [
@@ -442,7 +442,7 @@
     },
     {
       "id": 4,
-      "image":"../Asset/potato-croquette.jpg",
+      "image":"/Asset/potato-croquette.jpg",
       "name": "Potato Croquettes",
       "description": "Potato croquettes are crispy and flavorful snacks made from mashed potatoes, shaped into cylinders, coated in breadcrumbs, and deep-fried until golden brown.",
       "ingredients": [
@@ -467,7 +467,7 @@
     },
     {
       "id": 5,
-      "image":"../Asset/classic-potato.jpg",
+      "image":"/Asset/classic-potato.jpg",
       "name": "Classic Potato Fries",
       "description": "Classic potato fries are crispy and golden-brown snacks loved by everyone. They are simple to make and perfect for snacking or as a side dish.",
       "ingredients": [
@@ -489,7 +489,7 @@
   "beans":[    
   {
       "id": 1,
-      "image":"../Asset/beans-porridge.jpg",
+      "image":"/Asset/beans-porridge.jpg",
       "name": "Nigerian Beans Porridge",
       "description": "Nigerian beans porridge, also known as 'Ewa Riro', is a hearty and nutritious dish made with beans, tomatoes, onions, and spices.",
       "ingredients": [
@@ -515,7 +515,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/moimoi.jpg",
+      "image":"/Asset/moimoi.jpg",
       "name": "Nigerian Moi Moi",
       "description": "Nigerian Moi Moi is a steamed bean pudding made with blended beans, spices, and other flavorings. It is a popular side dish or snack in Nigeria.",
       "ingredients": [
@@ -542,7 +542,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/bean-cake.jpg",
+      "image":"/Asset/bean-cake.jpg",
       "name": "Nigerian Beans Cake (Akara)",
       "description": "Nigerian beans cake, also known as 'Akara', is a popular street food made with peeled black-eyed beans, onions, and spices. It is deep-fried until golden brown and crispy.",
       "ingredients": [
@@ -566,7 +566,7 @@
     },
     {
       "id": 4,
-      "image":"../Asset/bean-stew.jpg",
+      "image":"/Asset/bean-stew.jpg",
       "name": "Nigerian Beans Stew",
       "description": "Nigerian beans stew is a flavorful dish made with beans cooked in a rich tomato-based sauce with onions, peppers, and spices.",
       "ingredients": [
@@ -594,7 +594,7 @@
    "pasta":[
     {
       "id": 1,
-      "image":"../Asset/spag-jollof.jpg",
+      "image":"/Asset/spag-jollof.jpg",
       "name": "Nigerian Spaghetti Jollof",
       "description": "Nigerian Spaghetti Jollof is a delicious twist on the classic Jollof Rice. It's made with spaghetti cooked in a flavorful tomato sauce with onions, peppers, and spices.",
       "ingredients": [
@@ -622,7 +622,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/pasta-salad.jpg",
+      "image":"/Asset/pasta-salad.jpg",
       "name": "Nigerian Pasta Salad",
       "description": "Nigerian Pasta Salad is a refreshing and colorful dish made with cooked pasta, vegetables, and a tangy dressing. It's perfect for picnics, potlucks, or as a side dish.",
       "ingredients": [
@@ -650,7 +650,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/mac-cheese.jpg",
+      "image":"/Asset/mac-cheese.jpg",
       "name": "Nigerian Macaroni and Cheese",
       "description": "Nigerian Macaroni and Cheese is a creamy and comforting dish made with macaroni pasta, cheese, milk, and spices. It's a favorite among both kids and adults.",
       "ingredients": [
@@ -675,7 +675,7 @@
     },
     {
       "id": 4,
-      "image":"../Asset/pasta-stir.jpg",
+      "image":"/Asset/pasta-stir.jpg",
       "name": "Nigerian Pasta Stir-Fry",
       "description": "Nigerian Pasta Stir-Fry is a quick and easy dish made with cooked pasta, vegetables, and a savory sauce. It's perfect for busy weeknights and can be customized with your favorite veggies and protein.",
       "ingredients": [
@@ -704,7 +704,7 @@
   "tuwo":[   
   {
       "id": 1,
-      "image":"../Asset/tuwo-shinkara.jpg",
+      "image":"/Asset/tuwo-shinkara.jpg",
       "name": "Tuwo Shinkafa",
       "description": "Tuwo Shinkafa is a traditional Nigerian dish made from cooked rice flour. It is typically served as an accompaniment to soups and stews.",
       "ingredients": [
@@ -723,7 +723,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/tuwo-masara.jpg",
+      "image":"/Asset/tuwo-masara.jpg",
       "name": "Tuwo Masara",
       "description": "Tuwo Masara is a Nigerian dish made from corn flour. It has a smooth and slightly sticky texture and is often served with traditional Nigerian soups.",
       "ingredients": [
@@ -742,7 +742,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/tuwo-dawa.jpg",
+      "image":"/Asset/tuwo-dawa.jpg",
       "name": "Tuwo Dawa",
       "description": "Tuwo Dawa is a Nigerian dish made from ground millet or sorghum flour. It is a staple food in northern Nigeria and is often served with soups and stews.",
       "ingredients": [
@@ -765,7 +765,7 @@
   "pepperSoup":[
   {
       "id": 1,
-      "image":"../Asset/catfish.jpg",
+      "image":"/Asset/catfish.jpg",
       "name": "Nigerian Catfish Pepper Soup (Point and Kill)",
       "description": "Nigerian Catfish Pepper Soup, also known as 'Point and Kill', is a popular delicacy made with fresh catfish and aromatic spices. It is cherished for its spicy and flavorful broth.",
       "ingredients": [
@@ -793,7 +793,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/chicken-soup.jpg",
+      "image":"/Asset/chicken-soup.jpg",
       "name": "Nigerian Chicken Pepper Soup",
       "description": "Nigerian Chicken Pepper Soup is a spicy and comforting soup made with chicken, aromatic spices, and herbs. It's a popular dish during cold weather or as a remedy for colds and flu.",
       "ingredients": [
@@ -821,7 +821,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/goat-soup.jpg",
+      "image":"/Asset/goat-soup.jpg",
       "name": "Nigerian Goat Meat Pepper Soup",
       "description": "Nigerian Goat Meat Pepper Soup is a spicy and flavorful soup made with tender pieces of goat meat and aromatic spices. It's a popular dish for celebrations and gatherings.",
       "ingredients": [
@@ -849,7 +849,7 @@
     },
   {
     "id": 5,
-    "image":"../Asset/fish-soup.jpg",
+    "image":"/Asset/fish-soup.jpg",
     "name": "Nigerian Fish Pepper Soup",
     "description": "Nigerian Fish Pepper Soup is a spicy and aromatic soup made with fresh fish and flavorful spices. It's a comforting dish often enjoyed during cold weather or as a remedy for colds and flu.",
     "ingredients": [
@@ -880,7 +880,7 @@
   "soup":[  
   {
       "id": 1,
-      "image":"../Asset/egusi-soup.jpg",
+      "image":"/Asset/egusi-soup.jpg",
       "name": "Nigerian Egusi Soup",
       "description": "Nigerian Egusi Soup is a rich and flavorful soup made with ground melon seeds, vegetables, and meat or fish. It's a staple in Nigerian cuisine and is often enjoyed with fufu or pounded yam.",
       "ingredients": [
@@ -910,7 +910,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/ogbono-soup.jpg",
+      "image":"/Asset/ogbono-soup.jpg",
       "name": "Nigerian Ogbono Soup",
       "description": "Nigerian Ogbono Soup is a thick and hearty soup made with ground ogbono seeds, vegetables, and meat or fish. It's known for its slippery texture and savory flavor.",
       "ingredients": [
@@ -939,7 +939,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/pepper-soup.jpg",
+      "image":"/Asset/pepper-soup.jpg",
       "name": "Nigerian Pepper Soup",
       "description": "Nigerian Pepper Soup is a spicy and aromatic soup made with assorted meats or fish, flavored with a blend of spices and herbs. It's a popular comfort food enjoyed across Nigeria.",
       "ingredients": [
@@ -966,7 +966,7 @@
     },
   {
     "id": 4,
-    "image":"../Asset/okra-soup.jpg",
+    "image":"/Asset/okra-soup.jpg",
     "name": "Nigerian Okra Soup",
     "description": "Nigerian Okra Soup, also known as 'Okro Soup', is a popular dish made with fresh okra, assorted meats or fish, and flavorful spices. It's known for its slimy texture and delicious taste.",
     "ingredients": [
@@ -995,7 +995,7 @@
   },
   {
     "id": 5,
-    "image":"../Asset/afang-soup.jpg",
+    "image":"/Asset/afang-soup.jpg",
     "name": "Nigerian Afang Soup",
     "description": "Nigerian Afang Soup is a delicious and nutritious soup made with a combination of sliced vegetables, assorted meats, and seafood. It's a traditional dish from the Efik and Ibibio tribes of Nigeria and is known for its rich flavor.",
     "ingredients": [
@@ -1026,7 +1026,7 @@
   },
   {
     "id": 6,
-    "image":"../Asset/bitter-soup.jpg",
+    "image":"/Asset/bitter-soup.jpg",
     "name": "Nigerian Bitterleaf Soup (Ofe Onugbu)",
     "description": "Nigerian Bitterleaf Soup, also known as Ofe Onugbu, is a traditional soup made with bitterleaf, assorted meats, and spices. Despite its bitter taste, it's a beloved delicacy in Nigeria.",
     "ingredients": [
@@ -1056,7 +1056,7 @@
   },
   {
     "id": 7,
-    "image":"../Asset/veg-soup.jpg",
+    "image":"/Asset/veg-soup.jpg",
     "name": "Nigerian Vegetable Soup (Edikang Ikong)",
     "description": "Nigerian Vegetable Soup, also known as Edikang Ikong, is a nutritious and flavorful soup made with a variety of vegetables, assorted meats, and seafood. It's a traditional dish from the Efik and Ibibio tribes of Nigeria.",
     "ingredients": [
@@ -1087,7 +1087,7 @@
   },
   {
     "id": 8,
-    "image":"../Asset/oha-soup.jpg",
+    "image":"/Asset/oha-soup.jpg",
     "name": "Nigerian Oha Soup",
     "description": "Nigerian Oha Soup is a traditional soup made with Oha leaves, cocoyam, assorted meats, and spices. It's a delicacy commonly enjoyed in the Igbo-speaking regions of Nigeria.",
     "ingredients": [
@@ -1117,7 +1117,7 @@
   },
   {
     "id": 9,
-    "image":"../Asset/banga-soup.jpg",
+    "image":"/Asset/banga-soup.jpg",
     "name": "Nigerian Banga Soup",
     "description": "Nigerian Banga Soup, also known as Ofe Akwu, is a traditional soup made with palm fruit extract, assorted meats, and spices. It's a popular dish in the Niger Delta region of Nigeria.",
     "ingredients": [
@@ -1145,7 +1145,7 @@
   },
   {
     "id": 10,
-    "image":"../Asset/miyan-soup.jpg",
+    "image":"/Asset/miyan-soup.jpg",
     "name": "Nigerian Miyan Kuka",
     "description": "Nigerian Miyan Kuka, also known as Baobab Leaf Soup, is a traditional soup made from powdered baobab leaves, meat, and spices. It's a popular dish in Northern Nigeria and is known for its tangy flavor.",
     "ingredients": [
@@ -1172,7 +1172,7 @@
   },
   {
     "id": 11,
-    "image":"../Asset/eforiro.jpg",
+    "image":"/Asset/eforiro.jpg",
     "name": "Nigerian Efo Riro",
     "description": "Nigerian Efo Riro is a flavorful vegetable soup made with assorted meats, spinach or kale, and aromatic spices. It's a popular dish in Yoruba cuisine and is known for its rich taste.",
     "ingredients": [
@@ -1200,7 +1200,7 @@
   },
   {
     "id": 12,
-    "image":"../Asset/taushe.jpg",
+    "image":"/Asset/taushe.jpg",
     "name": "Nigerian Miyan Taushe",
     "description": "Nigerian Miyan Taushe is a traditional soup made from pumpkin or squash, groundnut paste, and spices. It's a popular dish in Northern Nigeria and is known for its rich flavor and creamy texture.",
     "ingredients": [
@@ -1233,7 +1233,7 @@
   
     {
       "id": 1,
-      "image":"../Asset/chick-shawa.jpg",
+      "image":"/Asset/chick-shawa.jpg",
       "name": "Chicken Shawarma",
       "description": "Chicken Shawarma is a popular street food in Nigeria, made with marinated and grilled chicken wrapped in pita bread with vegetables and sauce.",
       "ingredients": [
@@ -1297,7 +1297,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/veg-shawa.jpg",
+      "image":"/Asset/veg-shawa.jpg",
       "name": "Vegetable Shawarma",
       "description": "Vegetable Shawarma is a delicious vegetarian option, made with grilled vegetables wrapped in pita bread with sauce.",
       "ingredients": [
@@ -1330,7 +1330,7 @@
     },
   {
     "id": 4,
-    "image":"../Asset/fish-shawa.jpg",
+    "image":"/Asset/fish-shawa.jpg",
     "name": "Nigerian Fish Shawarma",
     "description": "Nigerian Fish Shawarma is a delightful seafood variation of shawarma, made with marinated and grilled fish wrapped in pita bread with vegetables and sauce.",
     "ingredients": [
@@ -1366,7 +1366,7 @@
 
   {
     "id": 1,
-    "image":"../Asset/suya-pizza.jpg",
+    "image":"/Asset/suya-pizza.jpg",
     "name": "Chicken Suya Pizza",
     "description": "Nigerian Chicken Suya Pizza is a fusion of Italian pizza with Nigerian flavors, featuring a crispy crust topped with spicy chicken suya, onions, bell peppers, and cheese.",
     "ingredients": [
@@ -1394,7 +1394,7 @@
   },
   {
     "id": 2,
-    "image":"../Asset/plantain-pizza.jpg",
+    "image":"/Asset/plantain-pizza.jpg",
     "name": "Beef and Plantain Pizza",
     "description": "Nigerian Beef and Plantain Pizza is a savory and sweet pizza featuring a crispy crust topped with seasoned beef, ripe plantains, onions, bell peppers, and cheese.",
     "ingredients": [
@@ -1421,7 +1421,7 @@
   },
   {
     "id": 3,
-    "image":"../Asset/spicy-pizza.jpg",
+    "image":"/Asset/spicy-pizza.jpg",
     "name": "Spicy Jollof Pizza",
     "description": "Nigerian Spicy Jollof Pizza is a fusion of Italian pizza with Nigerian jollof rice flavors, featuring a crispy crust topped with spicy jollof sauce, chicken, onions, bell peppers, and cheese.",
     "ingredients": [
@@ -1453,7 +1453,7 @@
   
     {
       "id": 1,
-      "image":"../Asset/agege.jpg",
+      "image":"/Asset/agege.jpg",
       "name": "Agege Bread",
       "description": "Agege Bread is a popular Nigerian bread known for its soft and fluffy texture. It's commonly enjoyed with tea, butter, or served as a sandwich.",
       "ingredients": [
@@ -1479,7 +1479,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/coconut-bread.jpg",
+      "image":"/Asset/coconut-bread.jpg",
       "name": "Coconut Bread",
       "description": "Coconut Bread is a delicious Nigerian bread infused with coconut flavor. It's moist, slightly sweet, and perfect for breakfast or snacks.",
       "ingredients": [
@@ -1507,7 +1507,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/potato-bread.jpg",
+      "image":"/Asset/potato-bread.jpg",
       "name": "Sweet Potato Bread",
       "description": "Sweet Potato Bread is a nutritious and flavorful Nigerian bread made with mashed sweet potatoes. It's moist, slightly sweet, and perfect for breakfast or snacks.",
       "ingredients": [
@@ -1538,7 +1538,7 @@
     },
   {
     "id": 4,
-    "image":"../Asset/chin-bread.jpg",
+    "image":"/Asset/chin-bread.jpg",
     "name": "Chin Chin Bread",
     "description": "Chin Chin Bread is a delightful twist on the traditional Nigerian snack, Chin Chin. It's a sweet and crunchy bread perfect for breakfast or as a snack.",
     "ingredients": [
@@ -1566,7 +1566,7 @@
   },
   {
     "id": 5,
-    "image":"../Asset/banana-bread.jpg",
+    "image":"/Asset/banana-bread.jpg",
     "name": "Nigerian Banana Bread",
     "description": "Nigerian Banana Bread is a moist and flavorful bread made with ripe bananas. It's a perfect way to use up overripe bananas and makes for a delicious breakfast or snack.",
     "ingredients": [
@@ -1596,7 +1596,7 @@
   },
   {
     "id": 6,
-    "image":"../Asset/corn-bread.jpg",
+    "image":"/Asset/corn-bread.jpg",
     "name": "Nigerian Cornbread",
     "description": "Nigerian Cornbread is a delicious twist on traditional cornbread, made with cornmeal, flour, and a touch of sweetness. It pairs perfectly with soups, stews, or enjoyed on its own as a snack.",
     "ingredients": [
@@ -1622,7 +1622,7 @@
   },
   {
     "id": 7,
-    "image":"../Asset/coconu-bread.jpg",
+    "image":"/Asset/coconu-bread.jpg",
     "name": "Nigerian Coconut Flour Bread",
     "description": "Nigerian Coconut Flour Bread is a gluten-free and nutritious alternative to traditional bread. Made with coconut flour and coconut milk, it's moist, flavorful, and perfect for those with gluten sensitivities.",
     "ingredients": [
@@ -1650,7 +1650,7 @@
   },
   {
     "id": 8,
-    "image":"../Asset/wheat-bread.jpg",
+    "image":"/Asset/wheat-bread.jpg",
     "name": "Nigerian Wheat Bread",
     "description": "Nigerian Wheat Bread is a healthier alternative to traditional white bread, made with whole wheat flour. It's hearty, nutritious, and perfect for sandwiches or toast.",
     "ingredients": [
@@ -1680,7 +1680,7 @@
 
     {
       "id": 1,
-      "image":"../Asset/fried-plantain.jpg",
+      "image":"/Asset/fried-plantain.jpg",
       "name": "Fried Ripe Plantains",
       "description": "Fried Ripe Plantains, also known as Dodo in Nigeria, are a popular side dish or snack. They are sweet, caramelized, and delicious.",
       "ingredients": [
@@ -1699,7 +1699,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/boli.jpg",
+      "image":"/Asset/boli.jpg",
       "name": "Boli (Grilled Plantains)",
       "description": "Boli, or Grilled Plantains, are a popular street food in Nigeria. They are sweet, smoky, and often served with groundnut (peanut) sauce.",
       "ingredients": [
@@ -1718,7 +1718,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/plantain-porridge.jpg",
+      "image":"/Asset/plantain-porridge.jpg",
       "name": "Plantain Porridge",
       "description": "Plantain Porridge is a hearty and comforting Nigerian dish made with ripe plantains, vegetables, and spices. It's nutritious, filling, and perfect for a wholesome meal.",
       "ingredients": [
@@ -1744,7 +1744,7 @@
     },
   {
     "id": 4,
-    "image":"../Asset/plantain-fritters.jpg",
+    "image":"/Asset/plantain-fritters.jpg",
     "name": "Plantain Fritters (Akokoro)",
     "description": "Plantain Fritters, known as Akokoro in Nigeria, are delicious deep-fried snacks made with mashed ripe plantains and spices. They are crispy on the outside and soft on the inside.",
     "ingredients": [
@@ -1767,7 +1767,7 @@
   },
   {
     "id": 5,
-    "image":"../Asset/plantain-chip.jpg",
+    "image":"/Asset/plantain-chip.jpg",
     "name": "Plantain Chips",
     "description": "Plantain Chips are crunchy and flavorful snacks made from thinly sliced ripe plantains that are deep-fried until crispy. They are perfect for munching on-the-go or as a side dish.",
     "ingredients": [
@@ -1788,7 +1788,7 @@
   },
   {
     "id": 6,
-    "image":"../Asset/plantain-pancake.jpg",
+    "image":"/Asset/plantain-pancake.jpg",
     "name": "Plantain Pancakes",
     "description": "Plantain Pancakes are a delicious and nutritious twist on traditional pancakes, made with ripe plantains and a few simple ingredients. They are perfect for breakfast or as a snack.",
     "ingredients": [
@@ -1815,7 +1815,7 @@
   },
   {
     "id": 7,
-    "image":"../Asset/plantain-pottage.jpg",
+    "image":"/Asset/plantain-pottage.jpg",
     "name": "Plantain Pottage (Porridge)",
     "description": "Plantain Pottage, also known as Plantain Porridge, is a hearty and flavorful one-pot meal made with ripe plantains, vegetables, and spices. It's nutritious, filling, and perfect for a comforting dinner.",
     "ingredients": [
@@ -1844,7 +1844,7 @@
   
     {
       "id": 1,
-      "image":"../Asset/indo-stir.jpg",
+      "image":"/Asset/indo-stir.jpg",
       "name": "Indomie Stir-Fry",
       "description": "Indomie Stir-Fry is a quick and flavorful dish made by stir-frying cooked Indomie noodles with vegetables, eggs, and a savory sauce.",
       "ingredients": [
@@ -1872,7 +1872,7 @@
     },
     {
       "id": 2,
-      "image":"../Asset/indo-soup.jpg",
+      "image":"/Asset/indo-soup.jpg",
       "name": "Indomie Noodle Soup",
       "description": "Indomie Noodle Soup is a comforting and satisfying dish made by cooking Indomie noodles in a flavorful broth with vegetables and spices.",
       "ingredients": [
@@ -1902,7 +1902,7 @@
     },
     {
       "id": 3,
-      "image":"../Asset/Indo pancake.jpg",
+      "image":"/Asset/Indo pancake.jpg",
       "name": "Indomie Pancake",
       "description": "Indomie Pancake is a creative and delicious twist on traditional pancakes, made by incorporating cooked Indomie noodles into the batter.",
       "ingredients": [
@@ -1929,7 +1929,7 @@
     },
   {
     "id": 4,
-    "image":"../Asset/indo-fried.jpg",
+    "image":"/Asset/indo-fried.jpg",
     "name": "Indomie Fried Rice",
     "description": "Indomie Fried Rice is a flavorful twist on traditional fried rice, incorporating cooked Indomie noodles for a unique and delicious dish.",
     "ingredients": [
@@ -1960,7 +1960,7 @@
   },
   {
     "id": 5,
-    "image":"../Asset/indo-pizza.jpg",
+    "image":"/Asset/indo-pizza.jpg",
     "name": "Indomie Pizza",
     "description": "Indomie Pizza is a fun and creative way to enjoy pizza, with an Indomie noodle crust topped with your favorite pizza toppings.",
     "ingredients": [
@@ -1984,7 +1984,7 @@
   },
   {
     "id": 6,
-    "image":"../Asset/indo-veg.jpg",
+    "image":"/Asset/indo-veg.jpg",
     "name": "Indomie Vegetable Stir-Fry",
     "description": "Indomie Vegetable Stir-Fry is a healthy and flavorful dish made with stir-fried Indomie noodles and an assortment of colorful vegetables.",
     "ingredients": [
@@ -2010,7 +2010,7 @@
   },
   {
     "id": 7,
-    "image":"../Asset/indo-salad.jpg",
+    "image":"/Asset/indo-salad.jpg",
     "name": "Indomie Salad",
     "description": "Indomie Salad is a refreshing and satisfying salad made with cooked Indomie noodles, fresh vegetables, and a zesty dressing.",
     "ingredients": [

@@ -19,18 +19,12 @@ export default function Pizza() {
       } catch (error) {
         console.error("error fetching data:", error);
       }
+      setLoading(false)
     };
     fetchData();
   },[jsonData]);
 
-useEffect (()=>{
-const timeout = setTimeout(()=>{
-setLoading(false)
 
-}, 1200)
-return ()=> clearTimeout(timeout)
-
-},[])
 if (loading){
   return (
     <>
