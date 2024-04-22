@@ -3,7 +3,7 @@ import "./app.css";
 import Header from "./Header.jsx";
 import App from "./App.jsx";
 import Data from "./food-data.json"
-import images from "./Asset"
+
 
 export default function Rice() {
   const [home, setHome] = useState(false);
@@ -77,7 +77,7 @@ if (loading){
             <div className="subcontainer" key={recipe.id}>
                       
                 
-            <img className="image"    src={images[recipe.image]}/>
+            <img className="image" src={recipe.image}/>
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">Descriptions: {recipe.description}</div>
