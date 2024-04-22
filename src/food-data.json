@@ -116,7 +116,7 @@
     "amala":[ 
     {
       "id": 1,
-      "image":"/Asset/ewedu-amala.jpg",
+      "image":"Asset/ewedu-amala.jpg",
       "name": "Ewedu Soup and Amala",
       "description": "Ewedu soup is a traditional Nigerian soup made with jute leaves, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
@@ -138,7 +138,7 @@
     },
     {
       "id": 2,
-      "image":"/Asset/gbegiri-amala.jpg",
+      "image":"Asset/gbegiri-amala.jpg",
       "name": "Gbegiri Soup and Amala",
       "description": "Gbegiri soup is a Nigerian soup made with beans, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
@@ -162,7 +162,7 @@
     },
     {
       "id": 3,
-      "image":"/Asset/ogbono-amala.jpg",
+      "image":"Asset/ogbono-amala.jpg",
       "name": "Ogbono Soup and Amala",
       "description": "Ogbono soup is a Nigerian soup made with ground ogbono seeds, often served with Amala, a Nigerian staple food made from yam flour.",
       "ingredients": [
