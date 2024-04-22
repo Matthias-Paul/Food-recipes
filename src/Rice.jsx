@@ -24,7 +24,7 @@ export default function Rice() {
       setLoading(false)
     };
     fetchData();
-  },[jsonData]);
+  },[]);
 
 
 if (loading){
