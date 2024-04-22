@@ -393,7 +393,7 @@
     },
     {
       "id": 2,
-      "image":"/Asset/potato-pottage.jpeg",
+      "image":"   Asset/potato-egg.jpg ",
       "name": "Potato Pottage",
       "description": "Potato pottage, also known as 'Potato Hotpot', is a hearty and nutritious Nigerian one-pot meal made with potatoes, vegetables, and protein.",
       "ingredients": [
