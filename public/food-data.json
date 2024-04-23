@@ -3,7 +3,7 @@
     "rice":[
     {
       "id": 1,
-      "image":"/Asset/jollof.jpg",
+      "image":"/assets/jollof.jpg",
       "name": "Jollof Rice",
       "description": "Jollof rice is a popular Nigerian dish made with rice, tomatoes, and various spices.",
       "ingredients": [

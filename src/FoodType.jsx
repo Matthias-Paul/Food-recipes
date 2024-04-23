@@ -1,20 +1,20 @@
 
 import styles from "./foodtype.module.css";
-import rice from "../Asset/rice.jpg";
-import amala from "../Asset/ewedu-amala.jpg";
-import yam from "../Asset/yam-egg.jpeg";
-import potato from "../Asset/potato-egg.jpg";
-import beans from "../Asset/beans-porridge.jpg";
-import pasta from "../Asset/pasta-stir.jpg";
+import rice from "../assets/rice.jpg";
+import amala from "../assets/ewedu-amala.jpg";
+import yam from "../assets/yam-egg.jpeg";
+import potato from "../assets/potato-egg.jpg";
+import beans from "../assets/beans-porridge.jpg";
+import pasta from "../assets/pasta-stir.jpg";
 import Header from "./Header"
-import tuwo from "../Asset/tuwo-dawa.jpg";
-import pepperSoup from "../Asset/fish-soup.jpg";
-import soup from "../Asset/oha-soup.jpg";
-import pizza from "../Asset/spicy-pizza.jpg";
-import bread from "../Asset/agege.jpg";
-import plantain from "../Asset/plantain-pancake.jpg";
-import indomie from "../Asset/indo-salad.jpg";
-import shawama from "../Asset/chick-shawa.jpg";
+import tuwo from "../assets/tuwo-dawa.jpg";
+import pepperSoup from "../assets/fish-soup.jpg";
+import soup from "../assets/oha-soup.jpg";
+import pizza from "../assets/spicy-pizza.jpg";
+import bread from "../assets/agege.jpg";
+import plantain from "../assets/plantain-pancake.jpg";
+import indomie from "../assets/indo-salad.jpg";
+import shawama from "../assets/chick-shawa.jpg";
 import {Link} from "react-router-dom"
 
 
