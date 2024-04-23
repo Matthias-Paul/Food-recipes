@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./app.css";
 import Header from "./Header.jsx";
 import App from "./App.jsx";
-import Data from "./food-data.json"
+import Data from "../public/food-data.json"
 
 export default function Rice() {
   const [home, setHome] = useState(false);

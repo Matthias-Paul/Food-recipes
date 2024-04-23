@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "./Header.jsx";
 import App from "./App.jsx";
 import "./app.css";
-import Data from "./food-data.json";
+import Data from "../public/food-data.json";
 
 export default function Amala() {
   const [home, setHome] = useState(false);
