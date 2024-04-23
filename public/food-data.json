@@ -3,7 +3,7 @@
     "rice":[
     {
       "id": 1,
-      "image":"/assets/jollof.jpg",
+      "image":"../assets/jollof.jpg",
       "name": "Jollof Rice",
       "description": "Jollof rice is a popular Nigerian dish made with rice, tomatoes, and various spices.",
       "ingredients": [
@@ -32,7 +32,7 @@
     },
     {
       "id": 2,
-      "image":"/Asset/coconut-rice.jpg",
+      "image":"../assets/coconut-rice.jpg",
       "name": "Coconut Rice",
       "description": "Coconut rice is a delicious Nigerian dish made with rice cooked in coconut milk.",
       "ingredients": [

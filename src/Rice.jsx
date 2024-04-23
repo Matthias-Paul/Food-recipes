@@ -4,6 +4,8 @@ import {Link} from "react-router-dom"
 import Header from "./Header.jsx";
 import App from "./App.jsx";
 import Data from "../public/food-data.json"
+import jo from "../assets/jollof.jpg"
+import fri from "../assets/coconut-rice.jpg"
 
 
 export default function Rice() {
@@ -25,7 +27,7 @@ export default function Rice() {
       setLoading(false)
     };
     fetchData();
-  },[]);
+  },[jsonData]);
 
 
 if (loading){
@@ -66,8 +68,20 @@ if (loading){
           {riceInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
                       
-                
-            <img className="image" src={recipe.image}/>
+            {recipe.image ==="../assets/jollof.jpg" &&(
+              <img className="image" src={jo}/>
+            )  }                
+           
+           {recipe.image ==="../assets/coconut-rice.jpg" &&(
+              <img className="image" src={fri}/>
+            )  }                
+
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">Descriptions: {recipe.description}</div>
