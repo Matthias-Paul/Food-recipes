@@ -4,6 +4,7 @@ import Header from "./Header.jsx";
 import App from "./App.jsx";
 import Data from "../public/food-data.json"
 
+
 export default function Rice() {
   const [home, setHome] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -23,7 +24,7 @@ export default function Rice() {
       setLoading(false)
     };
     fetchData();
-  },[jsonData]);
+  },[]);
 
 
 if (loading){
@@ -74,7 +75,9 @@ if (loading){
         <div>
           {riceInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+                      
+                
+            <img className="image" src={recipe.image}/>
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">Descriptions: {recipe.description}</div>
