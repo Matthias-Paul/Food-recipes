@@ -4,10 +4,11 @@
     color:white;
     background-color: gray;
     width: 100%;
-    padding: 20px;
+
+    height:45px;
     text-align: center;
     position:fixed;
-    
+    padding-top: 20px;
   
     
 }

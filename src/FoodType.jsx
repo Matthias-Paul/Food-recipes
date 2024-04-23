@@ -6,7 +6,7 @@ import yam from "../Asset/yam-egg.jpeg";
 import potato from "../Asset/potato-egg.jpg";
 import beans from "../Asset/beans-porridge.jpg";
 import pasta from "../Asset/pasta-stir.jpg";
-
+import Header from "./Header"
 import tuwo from "../Asset/tuwo-dawa.jpg";
 import pepperSoup from "../Asset/fish-soup.jpg";
 import soup from "../Asset/oha-soup.jpg";
@@ -15,17 +15,14 @@ import bread from "../Asset/agege.jpg";
 import plantain from "../Asset/plantain-pancake.jpg";
 import indomie from "../Asset/indo-salad.jpg";
 import shawama from "../Asset/chick-shawa.jpg";
+import {Link} from "react-router-dom"
 
 
-export default function FoodType({change, changeAmala, changeYam,
-changePotato, changeBeans, changePasta, changeTuwo, changePepperSoup,
-changeSoup, changeShawama, changePizza, changeBread, changePlantain,
-changeIndomie
-
-}) {
+export default function FoodType() {
   
   return (
     <>
+    <Header/>
       <div className={styles.foodcontainer}>
         <div className={styles.hero}>
           <h3 className={styles.topic}>Welcome To SoloChef</h3>
@@ -34,16 +31,16 @@ changeIndomie
           </p>
         </div>
         <h3>Recipes By Category</h3>
-        <div onClick ={change} className={styles.food}>
+        <Link to="rice" className={styles.food}>
           <img className={styles.image} src={rice}  />
           <div className={styles.text}>Rice</div>
           
           <div className={styles.number}>
             Four different rice recipes available!
           </div>
-        </div>
+        </Link>
 
-        <div onClick={changeAmala} className={styles.food}>
+        <div  className={styles.food}>
           <img className={styles.image} src={amala} />
           <div className={styles.text}>Amala</div>
           <div className={styles.number}>
@@ -51,7 +48,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeYam}  className={styles.food}>
+        <div  className={styles.food}>
           <img className={styles.image} src={yam} />
           <div className={styles.text}>Yam</div>
           <div className={styles.number}>
@@ -59,7 +56,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changePotato} className={styles.food}>
+        <div className={styles.food}>
           <img className={styles.image} src={potato}  />
           <div className={styles.text}>Potato</div>
           <div className={styles.number}>
@@ -67,7 +64,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeBeans} className={styles.food}>
+        <div className={styles.food}>
           <img className={styles.image} src={beans}  />
           <div className={styles.text}>Beans</div>
           <div className={styles.number}>
@@ -75,7 +72,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changePasta} className={styles.food}>
+        <div className={styles.food}>
           <img className={styles.image} src={pasta}  />
           <div className={styles.text}>Pasta</div>
           <div className={styles.number}>
@@ -83,7 +80,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeTuwo}className={styles.food}>
+        <div className={styles.food}>
           <img className={styles.image} src={tuwo} />
           <div className={styles.text}>Tuwo</div>
           <div className={styles.number}>
@@ -91,7 +88,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changePepperSoup}className={styles.food}>
+        <div className={styles.food}>
           <img className={styles.image} src={pepperSoup}  />
           <div className={styles.text}>Pepper Soup</div>
           <div className={styles.number}>
@@ -99,7 +96,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeSoup} className={styles.food}>
+        <div className={styles.food}>
           <img className={styles.image} src={soup}  />
           <div className={styles.text}>Soup</div>
           <div className={styles.number}>
@@ -108,7 +105,7 @@ changeIndomie
         </div>
  
  
-        <div onClick={changePlantain} className={styles.food}>
+        <div  className={styles.food}>
          <img className={styles.image}
              src={plantain}  />
           <div className={styles.text}>Plantain</div>
@@ -117,7 +114,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeIndomie} className={styles.food}>
+        <div className={styles.food}>
          <img className={styles.image}
              src={indomie}  />
           <div className={styles.text}>Indomie</div>
@@ -126,7 +123,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeShawama} className={styles.food}>
+        <div className={styles.food}>
          <img className={styles.image}
              src={shawama} />
           <div className={styles.text}>Shawama</div>
@@ -135,7 +132,7 @@ changeIndomie
           </div>
         </div>
 
-        <div onClick={changeBread} className={styles.food}>
+        <div  className={styles.food}>
          <img className={styles.image}
              src={bread} />
           <div className={styles.text}>Bread</div>
@@ -145,7 +142,7 @@ changeIndomie
         </div>
 
 
-        <div onClick={changePizza} className={styles.food}>
+        <div className={styles.food}>
          <img className={styles.image}
              src={pizza}  />
           <div className={styles.text}>Pizza</div>

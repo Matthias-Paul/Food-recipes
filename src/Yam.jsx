@@ -66,7 +66,7 @@ if (loading){
         <div>
           {yamInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-            <img className={image} src={require(`.${recipe.image}`).default} />
+              <img className="image" src={recipe.image} />
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

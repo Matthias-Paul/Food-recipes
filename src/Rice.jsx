@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import "./app.css";
+import {Link} from "react-router-dom"
 import Header from "./Header.jsx";
 import App from "./App.jsx";
 import Data from "../public/food-data.json"
 
 
 export default function Rice() {
-  const [home, setHome] = useState(false);
+  
   const [isVisible, setIsVisible] = useState(false);
   const [riceInfo, setRiceInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -45,17 +46,6 @@ if (loading){
 
 
 
-  function cancel() {
-    setHome(true);
-  }
-  if (home) {
-    return (
-      <>
-        <Header />
-        <App />
-      </>
-    );
-  }
 
   const toggleRecipeVisibility = (recipeId) => {
     setIsVisible((prevVisibility) => ({
@@ -68,9 +58,9 @@ if (loading){
   return (
     <>
       <div className="container">
-        <button onClick={cancel} className="cancel">
+        <Link to="/"  className="cancel">
           X
-        </button>
+        </Link>
 
         <div>
           {riceInfo.map((recipe) => (
