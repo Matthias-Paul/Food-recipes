@@ -55,6 +55,7 @@ if (loading){
 
   return (
     <>
+    <Header/>
       <div className="container">
       <Link to="/" className="cancel">X</Link>
         <div>
