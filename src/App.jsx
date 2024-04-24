@@ -21,6 +21,7 @@ import Tuwo from "./Tuwo"
 import Yam from "./Yam"
 import Beans from "./Beans"
 import Bread from "./Bread"
+import HomePageNotFound from "./HomePageNotFound"
 
 export default function App(){
 
@@ -42,6 +43,7 @@ export default function App(){
         <Route path="/Soup" element={<Soup />} />
         <Route path="/Tuwo" element={<Tuwo/>} />
         <Route path="/Yam" element={<Yam />} />
+        <Route path="*" element={<HomePageNotFound />} />
       </>
     )
   );
