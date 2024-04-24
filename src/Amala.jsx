@@ -3,9 +3,20 @@ import Header from "./Header.jsx";
 import App from "./App.jsx";
 import "./app.css";
 import Data from "../public/food-data.json";
+import {Link} from "react-router-dom"
+import ewe from "../assets/ewedu-amala.jpg"
+import gbe from "../assets/gbegiri-amala.jpg"
+import ogbo from "../assets/ogbono-amala.jpg"
+import egu from "../assets/egusi-amala.jpg"
+
+
+
+
+
+
 
 export default function Amala() {
-  const [home, setHome] = useState(false);
+  
   const [isVisible, setIsVisible] = useState({ 5: false });
   const [amalaInfo, setAmalaInfo] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -32,17 +43,7 @@ export default function Amala() {
     );
   }
 
-  function cancel() {
-    setHome(true);
-  }
-  if (home) {
-    return (
-      <>
-        <Header />
-        <App />
-      </>
-    );
-  }
+ 
   const toggleRecipeVisibility = (recipeId) => {
     setIsVisible((prevVisibility) => ({
       ...prevVisibility,
@@ -52,15 +53,41 @@ export default function Amala() {
   
   return (
     <>
+    <Header/>
       <div className="container">
-        <button onClick={cancel} className="cancel">
+        <Link to="/" className="cancel">
           X
-        </button>
+        </Link>
 
         <div>
           {amalaInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+
+
+
+
+
+                
+{recipe.image ==="../assets/ewedu-amala.jpg" &&(
+              <img className="image" src={ewe}/>
+            )  }                
+           
+           {recipe.image ==="../assets/gbegiri-amala.jpg" &&(
+              <img className="image" src={gbe}/>
+            )  }  
+
+       {recipe.image ==="../assets/ogbono-amala.jpg" &&(
+              <img className="image" src={ogbo}/>
+            )  }                
+           
+           {recipe.image ==="../assets/egusi-amala.jpg" &&(
+              <img className="image" src={egu}/>
+            )  }    
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">Descriptions: {recipe.description}</div>

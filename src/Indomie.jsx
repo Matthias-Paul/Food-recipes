@@ -3,9 +3,22 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from "react-router-dom"
+
+import stir from "../assets/indo-stir.jpg"
+import stew from "../assets/indo-soup.jpg"
+import fried from "../assets/indo-fried.jpg"
+import pan from "../assets/Indo pancake.jpg"
+import pizza from "../assets/indo-pizza.jpg"
+import veg from "../assets/indo-veg.jpg"
+import salad from "../assets/indo-salad.jpg"
+
+
+
+
 
 export default function Indomie() {
-  const [home, setHome] = useState(false)
+ 
   const [isVisible, setIsVisible] =useState(false)
   const [indomieInfo, setIndomieInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -39,17 +52,7 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
+
     const toggleRecipeVisibility = (recipeId) => {
       setIsVisible((prevVisibility) => ({
         ...prevVisibility,
@@ -60,12 +63,53 @@ if (loading){
   
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {indomieInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+              
+
+
+
+
+
+              {recipe.image ==="../assets/indo-stir.jpg" &&(
+              <img className="image" src={stir}/>
+            )  }                
+           
+           {recipe.image ==="../assets/indo-soup.jpg" &&(
+              <img className="image" src={stew}/>
+            )  }  
+
+       {recipe.image ==="../assets/indo-fried.jpg" &&(
+              <img className="image" src={fried}/>
+            )  }                
+           
+           {recipe.image ==="../assets/Indo pancake.jpg" &&(
+              <img className="image" src={pan}/>
+            )  } 
+
+
+{recipe.image ==="../assets/indo-pizza.jpg" &&(
+              <img className="image" src={pizza}/>
+            )  }                
+           
+           {recipe.image ==="../assets/indo-veg.jpg" &&(
+              <img className="image" src={veg}/>
+            )  }  
+
+       {recipe.image ==="../assets/indo-salad.jpg" &&(
+              <img className="image" src={salad}/>
+            )  }                
+       
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

@@ -3,10 +3,20 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from "react-router-dom"
+import cat from "../assets/catfish.jpg"
+import chick from "../assets/chicken-soup.jpg"
+import goat from "../assets/goat-soup.jpg"
+import fish from "../assets/fish-soup.jpg"
+
+
+
+
+
 
 export default function PepperSoup() {
   
-  const [home, setHome] = useState(false)
+  
   const [isVisible, setIsVisible] =useState(false)
   const [pepperSoupInfo, setPepperSoupInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -40,17 +50,7 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
+
 
     const toggleRecipeVisibility = (recipeId) => {
       setIsVisible((prevVisibility) => ({
@@ -62,12 +62,40 @@ if (loading){
   
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {pepperSoupInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+              
+
+
+
+
+
+
+              {recipe.image ==="../assets/catfish.jpg" &&(
+              <img className="image" src={cat}/>
+            )  }                
+           
+           {recipe.image ==="../assets/chicken-soup.jpg" &&(
+              <img className="image" src={chick}/>
+            )  }  
+
+       {recipe.image ==="../assets/goat-soup.jpg" &&(
+              <img className="image" src={goat}/>
+            )  }                
+           
+           {recipe.image ==="../assets/fish-soup.jpg" &&(
+              <img className="image" src={fish}/>
+            )  } 
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

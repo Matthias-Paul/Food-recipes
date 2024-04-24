@@ -3,9 +3,18 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from "react-router-dom"
+import spag from "../assets/spag-jollof.jpg"
+import salad from "../assets/pasta-salad.jpg"
+import mac from "../assets/mac-cheese.jpg"
+import stir from "../assets/pasta-stir.jpg"
+
+
+
+
 
 export default function Pasta() {
-  const [home, setHome] = useState(false)
+  
   const [isVisible, setIsVisible] =useState(false)
   const [pastaInfo, setPastaInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -38,17 +47,7 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
+ 
     const toggleRecipeVisibility = (recipeId) => {
       setIsVisible((prevVisibility) => ({
         ...prevVisibility,
@@ -59,12 +58,40 @@ if (loading){
   
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {pastaInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+              
+
+
+
+
+              {recipe.image ==="../assets/spag-jollof.jpg" &&(
+              <img className="image" src={spag}/>
+            )  }                
+           
+           {recipe.image ==="../assets/pasta-salad.jpg" &&(
+              <img className="image" src={salad}/>
+            )  }  
+
+       {recipe.image ==="../assets/mac-cheese.jpg" &&(
+              <img className="image" src={mac}/>
+            )  }                
+           
+           {recipe.image ==="../assets/pasta-stir.jpg" &&(
+              <img className="image" src={stir}/>
+            )  } 
+
+
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

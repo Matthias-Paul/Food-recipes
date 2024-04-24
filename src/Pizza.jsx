@@ -3,9 +3,17 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from "react-router-dom"
+import suya from "../assets/suya-pizza.jpg"
+import plantain from "../assets/plantain-pizza.jpg"
+import spicy from "../assets/spicy-pizza.jpg"
+
+
+
+
 
 export default function Pizza() {
-  const [home, setHome] = useState(false)
+  
   const [isVisible, setIsVisible] =useState(false)
   const [pizzaInfo, setPizzaInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -39,17 +47,7 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
+
 
 
     const toggleRecipeVisibility = (recipeId) => {
@@ -63,12 +61,36 @@ if (loading){
   
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {pizzaInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+              
+
+
+
+
+
+              {recipe.image ==="../assets/suya-pizza.jpg" &&(
+              <img className="image" src={suya}/>
+            )  }                
+           
+           {recipe.image ==="../assets/plantain-pizza.jpg" &&(
+              <img className="image" src={plantain}/>
+            )  }  
+
+       {recipe.image ==="../assets/spicy-pizza.jpg" &&(
+              <img className="image" src={spicy}/>
+            )  }  
+
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

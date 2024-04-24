@@ -3,9 +3,16 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from "react-router-dom"
+import por from "../assets/yam-porridge.jpeg"
+import pot from "../assets/yam-pottage.jpeg"
+import egg from "../assets/yam-egg.jpeg"
+import fry from "../assets/yam-fries.jpeg"
+import ball from "../assets/yam-ball.jpg"
+import veg from "../assets/yam-veg.jpeg"
 
 export default function Yam() {
-  const [home, setHome] = useState(false)
+
   const [isVisible, setIsVisible] =useState(false)
   const [yamInfo, setYamInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -41,17 +48,7 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
+
     const toggleRecipeVisibility = (recipeId) => {
       setIsVisible((prevVisibility) => ({
         ...prevVisibility,
@@ -61,12 +58,43 @@ if (loading){
 
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {yamInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+
+
+
+
+             
+                
+{recipe.image ==="../assets/yam-porridge.jpeg" &&(
+              <img className="image" src={por}/>
+            )  }                
+           
+           {recipe.image ==="../assets/yam-pottage.jpeg" &&(
+              <img className="image" src={pot}/>
+            )  }  
+
+       {recipe.image ==="../assets/yam-egg.jpeg" &&(
+              <img className="image" src={egg}/>
+            )  }                
+           
+           {recipe.image ==="../assets/yam-fries.jpeg" &&(
+              <img className="image" src={fry}/>
+            )  }  
+
+  {recipe.image ==="../assets/yam-ball.jpg" &&(
+              <img className="image" src={ball}/>
+            )  }  
+  {recipe.image ==="../assets/yam-veg.jpeg" &&(
+              <img className="image" src={veg}/>
+            )  }  
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

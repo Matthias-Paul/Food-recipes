@@ -3,10 +3,16 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from 'react-router-dom'
+import por from "../assets/beans-porridge.jpg"
+import moi from "../assets/moimoi.jpg"
+import cake from "../assets/bean-cake.jpg"
+import stew from "../assets/bean-stew.jpg"
+
 
 export default function Beans() {
   
-  const [home, setHome] = useState(false)
+  
   const [isVisible, setIsVisible] =useState(false)
   const [beansInfo, setBeansInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -40,17 +46,6 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
 
     const toggleRecipeVisibility = (recipeId) => {
       setIsVisible((prevVisibility) => ({
@@ -62,12 +57,43 @@ if (loading){
   
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {beansInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+              
+
+
+
+
+
+              {recipe.image ==="../assets/beans-porridge.jpg" &&(
+              <img className="image" src={por}/>
+            )  }                
+           
+           {recipe.image ==="../assets/moimoi.jpg" &&(
+              <img className="image" src={moi}/>
+            )  }  
+
+       {recipe.image ==="../assets/bean-cake.jpg" &&(
+              <img className="image" src={cake}/>
+            )  }                
+           
+           {recipe.image ==="../assets/bean-stew.jpg" &&(
+              <img className="image" src={stew}/>
+            )  }  
+
+
+
+
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">

@@ -1,121 +1,115 @@
-body{
-    margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-} 
-.container{
-    display:flex;
-    flex-direction: column;
-    padding-top: 110px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+body {
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
 }
-.subcontainer{
-    width:320px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.4);
-    margin-bottom: 40px;
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.image{
-    width:320px;
-    height: 270px;
-    border-radius: 8px;
-    background-size: contain;
+.subcontainer {
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.4);
+  margin-bottom: 40px;
 }
-.name{
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(88, 53, 53);
-
+.image {
+  width: 320px;
+  height: 270px;
+  border-radius: 8px;
+  background-size: contain;
 }
-.descript{
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: -7px;
-    color: rgb(124, 24, 24);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.name {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(88, 53, 53);
 }
-.button{
-padding: 10px;
-margin-top:8px;
-margin-bottom:15px;
-border-radius: 8px;
-background-color: gray;
-color: white;
-font-size: 15px;
-cursor: pointer;
-border:none;
+.descript {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -7px;
+  color: rgb(124, 24, 24);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.button:active{
-    opacity: 0.9;
+.button {
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: gray;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
 }
-.cancel{
-    padding: 10px;
-    width:50px;
-    font-size: 16px;
-    font-weight:bold;
-    color:white;
-    background-color: red;
-    border:none;
-    border-radius: 150px;
-    margin-bottom: 11px;
-    margin-top: -17px;
-    height: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
-    
+.button:active {
+  opacity: 0.9;
 }
-.cancel:active{
-    opacity:0.8;
+.cancel {
+  padding: 5px;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 150px;
+  margin-bottom: 15px;
+  margin-top: -22px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
 }
-.view{
-    text-align: left;
-    padding: 20px;
+.cancel:active {
+  opacity: 0.8;
 }
-.subtopic{
-    margin-left: 25px;
-    font-weight: bold;
-    font-size: 17px;
-    color: rgb(44, 40, 40);
+.view {
+  text-align: left;
+  padding: 20px;
 }
-.list{
-    color: rgb(44, 40, 40);
-    font-size: 18px; 
-    padding-bottom: 5px;
+.subtopic {
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(44, 40, 40);
 }
-.sublist{
-    padding: 4px;
+.list {
+  color: rgb(44, 40, 40);
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.sublist {
+  padding: 4px;
 }
 @keyframes spin {
-    0%{transform:rotate(0deg)}
-    100%{transform:rotate(360deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.loading{
-    margin:0 auto;
-    border:2px solid rgba(148, 135, 135, 0.8);
-    border-top:4px solid gray;
-    border-radius:50%;
-    width:50px;
-    height:50px;
-    animation:spin 1s linear infinite
+.loading {
+  margin: 0 auto;
+  border: 2px solid rgba(148, 135, 135, 0.8);
+  border-top: 4px solid gray;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
 }
-.help{
-    padding-top:300px;
+.help {
+  padding-top: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

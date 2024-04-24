@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import "./app.css";
 import {Link} from "react-router-dom"
 import Header from "./Header.jsx";
-import App from "./App.jsx";
+
 import Data from "../public/food-data.json"
 import jo from "../assets/jollof.jpg"
-import fri from "../assets/coconut-rice.jpg"
-
+import co from "../assets/coconut-rice.jpg"
+import fri from "../assets/fried-rice.jpg"
+import ofa from "../assets/ofada-rice.jpg"
 
 export default function Rice() {
   
@@ -59,6 +60,7 @@ if (loading){
 
   return (
     <>
+    <Header/>
       <div className="container">
         <Link to="/"  className="cancel">
           X
@@ -73,7 +75,15 @@ if (loading){
             )  }                
            
            {recipe.image ==="../assets/coconut-rice.jpg" &&(
+              <img className="image" src={co}/>
+            )  }  
+
+       {recipe.image ==="../assets/fried-rice.jpg" &&(
               <img className="image" src={fri}/>
+            )  }                
+           
+           {recipe.image ==="../assets/ofada-rice.jpg" &&(
+              <img className="image" src={ofa}/>
             )  }                
 
 

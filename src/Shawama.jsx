@@ -3,9 +3,17 @@ import Header from "./Header.jsx"
 import App from "./App.jsx"
 import "./app.css";
 import Data from "../public/food-data.json"
+import {Link} from "react-router-dom"
+import chick from "../assets/chick-shawa.jpg"
+import beaf from "../assets/beaf-shawa.jpg"
+import veg from "../assets/veg-shawa.jpg"
+import fish from "../assets/fish-shawa.jpg"
+
+
+
 
 export default function Shawama() {
-  const [home, setHome] = useState(false)
+
   const [isVisible, setIsVisible] =useState(false)
   const [shawamaInfo, setShawamaInfo] = useState([]);
   const [loading, setLoading] = useState(true)
@@ -40,17 +48,7 @@ if (loading){
 
 
 
-  function cancel(){
-    setHome(true)
-    }
-    if (home){
-      return(
-        <>
-        <Header/>
-        <App/>
-        </>
-      )
-    }
+
     const toggleRecipeVisibility = (recipeId) => {
       setIsVisible((prevVisibility) => ({
         ...prevVisibility,
@@ -62,12 +60,36 @@ if (loading){
   
   return (
     <>
+    <Header/>
       <div className="container">
-      <button onClick={cancel} className="cancel">X</button>
+      <Link to="/" className="cancel">X</Link>
         <div>
           {shawamaInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
-              <img className="image" src={recipe.image} />
+              
+
+
+              {recipe.image ==="../assets/chick-shawa.jpg" &&(
+              <img className="image" src={chick}/>
+            )  }                
+           
+           {recipe.image ==="../beaf-shawa.jpg" &&(
+              <img className="image" src={beaf}/>
+            )  }  
+
+       {recipe.image ==="../assets/veg-shawa.jpg" &&(
+              <img className="image" src={veg}/>
+            )  }                
+           
+           {recipe.image ==="../assets/fish-shawa.jpg" &&(
+              <img className="image" src={fish}/>
+            )  } 
+
+
+
+
+
+
               <div className="name">Name: {recipe.name}</div>
 
               <div className="descript">
