@@ -73,7 +73,7 @@ if (loading){
               <img className="image" src={chick}/>
             )  }                
            
-           {recipe.image ==="../beaf-shawa.jpg" &&(
+           {recipe.image ==="../assets/beaf-shawa.jpg" &&(
               <img className="image" src={beaf}/>
             )  }  
 
