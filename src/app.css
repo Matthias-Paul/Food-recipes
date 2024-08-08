@@ -39,8 +39,8 @@ body {
 }
 .button {
   padding: 10px;
-  margin-top: 8px;
-  margin-bottom: 15px;
+  margin-top: 13px;
+  margin-bottom: 19px;
   border-radius: 8px;
   background-color: gray;
   color: white;
@@ -114,10 +114,7 @@ body {
 .help {
   padding-top: 300px;
 }
-.contain{
-  display:grid;
-  grid-template-columns:350px;
-}
+
 
 
 

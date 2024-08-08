@@ -66,7 +66,7 @@ if (loading){
           X
         </Link>
 
-        <div className="contain">
+        <div >
           {riceInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
                       
