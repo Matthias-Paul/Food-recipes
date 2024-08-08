@@ -61,6 +61,7 @@ if (loading){
       <div className="container">
       <Link to="/" className="cancel">X</Link>
         <div>
+          
           {beansInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
               

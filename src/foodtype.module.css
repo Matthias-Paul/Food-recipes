@@ -1,86 +1,90 @@
-.foodcontainer{
-    display:flex;
-    flex-direction: column;
-    padding-top: 100px;
-    justify-content: center;
-  
-    align-items: center;
-   
-}
-.food{
-    height: 380px;
-    width:320px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.4);
-    margin-bottom: 30px;
-    cursor: pointer;
-    text-decoration: none;
-}
-.image{
-    width:320px;
-    height: 270px;
-    border-radius: 8px;
-    background-size: contain;
-}
-.text{ 
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 10px;
-    color:black;
+.foodcontainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  justify-content: center;
 
+  align-items: center;
 }
-.number{
+.food {
+  height: 380px;
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.foodie{
+    display:grid;
+    grid-template-columns: 320px;
+}
+.image {
+  width: 320px;
+  height: 270px;
+  border-radius: 8px;
+  background-size: contain;
+}
+.text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: black;
+}
+.number {
+  font-size: 18px;
+  margin-top: 10px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero {
+  text-align: center;
+  background-color: rgb(207, 236, 222);
+  margin-top: -35px;
+  box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.5);
+  padding-top: 70px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.topic {
+  margin-top: -40px;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 20px;
+}
+.paragraph {
+  font-size: 16px;
+  color: rgb(44, 5, 5);
+  padding: 20px;
+  margin-top: -25px;
+  line-height: 1.7;
+}
+
+@media (min-width: 800px) {
+  .topic {
+    font-size: 21px;
+  }
+  .paragraph {
+    margin: auto;
+    margin-top: -25px;
+    width: 520px;
     font-size: 18px;
-    margin-top: 10px;
-    color:black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.hero{
-text-align:center;
-background-color: rgb(207, 236, 222);
-margin-top:-35px;
-box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.5);
-padding-top: 70px;
-padding-bottom: 30px;
-width:100%;
-}
-.topic{
-    margin-top:-40px;
-    font-size:21px;
-    font-weight: bold;
-    padding: 20px;
-}
-.paragraph{
-    font-size:16px;
-    color:rgb(44, 5, 5);
-    padding: 20px;
-    margin-top:-25px;
-    line-height:1.7;
+    text-align: center;
+  }
+  .foodie {
+    margin-top: 19px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 35px;
+    grid-template-columns: 320px 320px;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 1200px) {
+  .foodie {
+    margin-top: 19px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+  }
+}

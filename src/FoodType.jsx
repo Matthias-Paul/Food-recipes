@@ -30,7 +30,9 @@ export default function FoodType() {
             for individuals who are cooking for themselves, friends or family.
           </p>
         </div>
+        
         <h3>Recipes By Category</h3>
+        <div className={styles.foodie} > 
         <Link to="/Rice" className={styles.food}>
           <img className={styles.image} src={rice}  />
           <div className={styles.text}>Rice</div>
@@ -150,7 +152,7 @@ export default function FoodType() {
              Three different pizza recipes available!
           </div>
         </Link>
-
+        </div>
       </div>
     </>
   );

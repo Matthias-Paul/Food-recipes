@@ -66,7 +66,7 @@ if (loading){
           X
         </Link>
 
-        <div>
+        <div className="contain">
           {riceInfo.map((recipe) => (
             <div className="subcontainer" key={recipe.id}>
                       
@@ -102,7 +102,9 @@ if (loading){
               >
                 {isVisible[recipe.id] ? "Hide Recipes" : "View Recipes"}
               </button>
+              
               {isVisible[recipe.id] && (
+               
                 <div className="view">
                   <div style={{ display: isVisible ? "block" : "none" }}>
                     <p className="subtopic">INGREDIENTS</p>

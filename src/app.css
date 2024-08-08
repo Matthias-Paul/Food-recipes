@@ -67,8 +67,6 @@ body {
   margin-bottom: 15px;
   margin-top: -22px;
   height: 50px;
-  font-weight: bold;
-  font-size: 20px;
   cursor: pointer;
   text-decoration: none;
 }
@@ -78,6 +76,9 @@ body {
 .view {
   text-align: left;
   padding: 20px;
+  margin-top: 20px;
+  border-width: 10px;
+  display:inline;
 }
 .subtopic {
   margin-left: 25px;
@@ -113,3 +114,16 @@ body {
 .help {
   padding-top: 300px;
 }
+.contain{
+  display:grid;
+  grid-template-columns:350px;
+}
+
+
+
+
+
+
+
+
+
